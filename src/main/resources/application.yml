@@ -1,0 +1,19 @@
+server:
+  port: 8181
+
+spring:
+  profiles:
+    active: dev
+
+logging:
+  level:
+    ROOT: ERROR
+    org.springframework: ERROR
+    org.springframework.data: ERROR
+    com.assignment: INFO
+    org.assignment.repository: ERROR
+  path: C:\\temp\\appLogs
+  
+myapp:
+  var:
+    fileStorage: C:\\temp\\fileStore\\

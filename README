@@ -1,0 +1,15 @@
+
+
+## Test Endpoint to see if the service working
+(GET) http://localhost:8181/api/echo/{message} 
+
+## MetaUploader API endpoint
+(POST) http://localhost:8181/api/metaupload/
+(Accepts file as form data. parameter name: ufile)
+
+## Check all records
+(GET) http://localhost:8181/api/metainfo/
+
+## Check individual Record
+(GET) http://localhost:8181/api/metainfo/{id}
+
