@@ -44,6 +44,7 @@ public class MetaUpdateController {
 	public ResponseEntity<MetaUploadResponse> uploadMetaData(@RequestParam("ufile") MultipartFile ufile) throws Exception {
 
 		MetaUploadResponse response = metaUploadService.uploadMetaInfo(ufile);
+
 		return new ResponseEntity<MetaUploadResponse>(response,HttpStatus.OK);
 	}
 	
